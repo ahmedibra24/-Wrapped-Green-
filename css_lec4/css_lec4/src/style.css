@@ -1,0 +1,86 @@
+:root {
+  font-size: 16px;
+  --black-color: #383833;
+  --primary-color: #387546;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+body {
+  color: var(--black-color);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  height: 200vh;
+}
+a {
+  text-decoration: none !important;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #0000001a;
+  background-color: #fff;
+}
+.navbar__wrapepr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar__logo {
+  padding: 1em 0;
+}
+.nav__items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4em;
+  font-weight: bold;
+}
+.nav__items .nav__item a {
+  color: var(--black-color);
+  font-size: 1.5rem;
+}
+
+/* ABOUTUS SECTION */
+#aboutUs {
+  background: linear-gradient(#def0d8, #fafafa);
+}
+.aboutus__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 90%;
+}
+.aboutus__content {
+  width: 44%;
+}
+.aboutus__content__header {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.aboutus__content__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 1.5em;
+}
+.aboutus__visuals {
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    font-size: 10px;
+  }
+}
